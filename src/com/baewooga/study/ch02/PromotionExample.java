@@ -15,12 +15,17 @@ public class PromotionExample {
 		System.out.println("intValue: " +byteValue);
 		
 		
-		int intValue2 = 1234567890;
-		System.out.println("intValue: " + intValue2);
-		
+//		int intValue2 = 1234567890;
+//		System.out.println("intValue: " + intValue2);
+//		
 //		byte byteValue2 = intValue2;
 //		System.out.println("byteValue2: " + byteValue2);
 		
+		int intVAlue3 = 200;
+		System.out.println("intVAlue3: " + intVAlue3);
+		
+		double doubleValue = intVAlue3;
+		System.out.println("double doubleValue: " + doubleValue);
 		
 		
 	}
