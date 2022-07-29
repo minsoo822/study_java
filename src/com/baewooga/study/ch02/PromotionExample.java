@@ -11,8 +11,16 @@ public class PromotionExample {
 		byte byteValue = 10;
 		System.out.println("byteValue: " + byteValue);
 		
-		int intValue = byteValue;
+		int intValue = byteValue;	//10
 		System.out.println("intValue: " +byteValue);
+		
+		
+		int intValue2 = 1234567890;
+		System.out.println("intValue: " + intValue2);
+		
+//		byte byteValue2 = intValue2;
+//		System.out.println("byteValue2: " + byteValue2);
+		
 		
 		
 	}
