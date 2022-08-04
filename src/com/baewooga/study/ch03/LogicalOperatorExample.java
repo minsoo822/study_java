@@ -6,7 +6,7 @@ public class LogicalOperatorExample {
 		
 //		&& = & : and :논리곱 : 연산 참 참 참, 나머지 폴스
 //		|| = | : or : 논리합 : 연산 참 폴스 참, 폴스 참 참, 참 참 참, 폴스 폴스 폴스
-//		^ : 배타적 논리합 : 연산 참 참 폴스, 폴스 폴스 폴스, 참 폴스 참, 폴스 참 참
+//		^ : 배타적 논리합	 : 연산 참 참 폴스, 폴스 폴스 폴스, 참 폴스 참, 폴스 참 참
 		
 		int a = 65;
 		
@@ -57,8 +57,21 @@ public class LogicalOperatorExample {
 			System.out.println("이렇게 해야 보여진다.");
 		}
 		
+		if(a >= 65 ^ a <= 90) {
+			System.out.println("참 참: 폴스");
+		}
 		
+		if(a >= 66 ^ a <= 50) {
+			System.out.println("폴스 폴스: 폴스");
+		}
 		
+		if(a >= 65 ^ a <= 50) {
+			System.out.println("참 폴스: 참");
+		}
+		
+		if(a >= 66 ^ a <= 90) {
+			System.out.println("폴스 참: 참");
+		}
 		
 	}
 
