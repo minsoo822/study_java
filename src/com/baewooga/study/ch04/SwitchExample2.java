@@ -43,9 +43,6 @@ public class SwitchExample2 {
 		}
 		
 		
-		
-		
-		
 	}
 
 }
