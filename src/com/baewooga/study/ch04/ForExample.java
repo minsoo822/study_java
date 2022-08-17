@@ -12,6 +12,15 @@ public class ForExample {
 //		**********
 //		출력하는 프로그램을 만드시오
 		
+		for (int i = 1; i <= 5; i++) {
+			for (int j = 1; j < 10; j++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		
+		System.out.println("----------------");
+	
 //		String i = "*";
 		
 //		for(int i=1; i<=10; i++) {
@@ -26,26 +35,19 @@ public class ForExample {
 		
 		
 		
-		for(int i=0; i<5; i++) {
-			
-			
-			for(int j = 1; j<=10; j++) {
-			
-			
-				System.out.print("*");
-			
-			
-			}
-			System.out.println();
-			
-			
-		}
-		
-		for(int i = 2; i<=9; i++) {
-			for(int j =1; j<=9; j++) {
-				System.out.println(i + " * " + j + " = " + i*j);
-			}
-		}
+//		for(int i=0; i<5; i++) {
+//			for(int j = 1; j<=10; j++) {
+//			System.out.print("*");
+//			}
+//			System.out.println();
+//			
+//		}
+//		
+//		for(int i = 2; i<=9; i++) {
+//			for(int j =1; j<=9; j++) {
+//				System.out.println(i + " * " + j + " = " + i*j);
+//			}
+//		}
 		
 
 		
@@ -57,6 +59,15 @@ public class ForExample {
 //		***********
 //		출력하는 프로그램을 만드시오
 		
+//		for (int i = 1; i <= 5; i++) {
+//			for (int j = 1; j <= 10; j++) {
+//				System.out.print("*");
+//				
+//			}
+//			
+//		}
+		
+	
 //		if() {
 //			System.out.println("***********");
 //		} else {
@@ -73,7 +84,7 @@ public class ForExample {
 		} 
 		
 		
-		System.out.println("----------------------");
+//		System.out.println("----------------------");
 		
 		
 		
@@ -96,10 +107,11 @@ public class ForExample {
 //			}
 //		}
 		
-		for(int i = 1; i <= 10; i++) {
+		for(int i = 1; i<=9; i++) {
 			for(int j = 1; j<=9; j++) {
+				System.out.print(j);
 				
-			}
+			} System.out.println();
 		}
 		
 	}
