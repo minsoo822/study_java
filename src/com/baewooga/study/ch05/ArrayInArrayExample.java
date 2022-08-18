@@ -50,9 +50,9 @@ public class ArrayInArrayExample {
 			
 			for (int i = 0; i < 5; i++) {
 				for (int j = 0; j < 3; j++) {
-					if (j == 1) {
+					if (j == 0) {
 						kosum = kosum + score[i][j];
-					} else if (j == 2){
+					} else if (j == 1){
 						egsum = egsum + score[i][j];	
 					} else {
 						masum = masum + score[i][j];
