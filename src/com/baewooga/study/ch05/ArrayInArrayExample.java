@@ -100,6 +100,7 @@ public class ArrayInArrayExample {
 			}
 			
 			System.out.println("------------------------------");
+
 			//2 과목별 평균
 			for(int j=0; j<3; j++) {
 				int sum=0;
@@ -110,9 +111,17 @@ public class ArrayInArrayExample {
 			}
 					
 					
+			int[] sum2 = new int[3];
+			
+			for (int i = 0; i < scores.length; i++) {
+				for (int j = 0; j < scores[i].length; j++) {
+					sum2[j] += scores[i][j];
+				}
+			}
 					
-					
-					
+			for (int i = 0; i < sum2.length; i++) {
+				System.out.println(subject[i] + "과목의 평균점수는: " + ((double)sum2[i]/scores.length));
+			}		
 					
 					
 					
