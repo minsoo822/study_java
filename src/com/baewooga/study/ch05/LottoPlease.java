@@ -104,10 +104,7 @@ public class LottoPlease {
 		
 //		이전 차수와 동일 제거
 		
-		double min = 1.0;
-		double max = 45.0;
-		
-		
+	
 		
 
 
