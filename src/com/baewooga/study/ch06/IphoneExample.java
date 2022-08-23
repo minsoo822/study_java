@@ -27,6 +27,22 @@ public class IphoneExample {
 		System.out.println("handbag.name: " + handbag.name);
 				
 				
+		System.out.println("car.name3[2]: " + car.name3[2]);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
